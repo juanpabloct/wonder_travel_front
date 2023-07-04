@@ -24,9 +24,9 @@ export const Pount = ({
         <h4>{title}</h4>
         <Icon icon={icon} />
         <Flex width="w-full" className="relative justify-start">
-          <Flex col className="absolute">
-            <p className="text-xs ">{subTitle}</p>
-            <p className="text-xs text-[#707070]">{description}</p>
+          <Flex col className="absolute text-[11px]">
+            <p className="">{subTitle}</p>
+            <p className=" text-[#707070] h-2">{description}</p>
           </Flex>
         </Flex>
       </div>
