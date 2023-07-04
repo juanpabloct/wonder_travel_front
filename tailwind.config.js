@@ -12,6 +12,13 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      backgroundColor: {
+        "blackLight": "#1a1c1f",
+        "beige": "#FDFCF7"
+      },
+      fontFamily: {
+        abrilFatFace: ['Abril Fatface', 'cursive'],
+      },
     },
   },
   plugins: [],
