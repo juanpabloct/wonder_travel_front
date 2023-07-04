@@ -9,7 +9,7 @@ export const DayDetails = ({
   startLine?: boolean;
 }) => {
   return (
-    <div className="grid grid-cols-3 ">
+    <div className="grid grid-cols-3 mb-3">
       <div className="col-start-2">
         {startLine && (
           <>
