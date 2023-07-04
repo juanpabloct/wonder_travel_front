@@ -1,5 +1,5 @@
 import { DivisionPount } from "./divisionPount";
-import { Flex } from "./tw-components/flex";
+import { Flex } from "../tw-components/flex";
 
 export const DayDetails = ({
   day,

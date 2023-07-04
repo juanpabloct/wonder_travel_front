@@ -1,8 +1,8 @@
-import { Main } from "@/components/main";
-import { Details } from "@/components/detalles";
+import { Main } from "@/components/header/main";
+import { Details } from "@/components/header/detalles";
 
 import Image from "next/image";
-import { DescriptionTravel } from "@/components/pountsTravel";
+import { DescriptionTravel } from "@/components/descriptionTravel/pountsTravel";
 import { Flex } from "@/components/tw-components/flex";
 import {
   PersonAdventure,

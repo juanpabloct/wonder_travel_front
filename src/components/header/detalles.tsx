@@ -1,15 +1,18 @@
 import Image from "next/image";
-import { IconTitleMain } from "./iconTitleMain";
-import mapa from "../../public/Group 536.svg";
-import IconArrowUp from "../../public/Icon - Keyboard Arrow - Up - Dark.svg";
-import IconWhatsapp from "../../public/whatsapp (1).png";
-import IconNounOffRoad from "../../public/noun_off-road_1938384.svg";
-import IconSendMessage from "../../public/Path 2202.svg";
-import IconNounHut from "../../public/noun_Hut_233351.svg";
-import IconNounFood from "../../public/noun_Food_2688587-1.svg";
-import selectorMapa from "../../public/Group 431.svg";
-import iconExperience from "../../public/noun_adventure_1941281.svg";
-import { IconWithTitle } from "./iconWithTitle";
+import { IconTitleMain } from "../descriptionTravel/iconTitleMain";
+
+import { IconWithTitle } from "../descriptionTravel/iconWithTitle";
+import {
+  arrowUp,
+  experience,
+  food,
+  mapa,
+  nounHut,
+  nounOffRoad,
+  selectorMapa,
+  send,
+  whatsapp,
+} from "../../../public/icons";
 export const Details = () => {
   return (
     <>
@@ -18,7 +21,7 @@ export const Details = () => {
         viaje por lo cerros de Mavicure y sus alrededores
       </h4>
       <div className="border border-solid border-white w-64 flex gap-6 p-3 rounded-md">
-        <Image alt="Send Message" src={IconSendMessage} className="ml-2" />
+        <Image alt="Send Message" src={send} className="ml-2" />
         <span>4 dias, 3 noches*</span>
       </div>
       <IconWithTitle
@@ -36,22 +39,22 @@ export const Details = () => {
         text={<p className="text-xs">Orinoquia (Guania, Colombia)</p>}
       />
       <div className="grid grid-cols-4 gap-x-8 gap-y-4">
-        <IconTitleMain icon={iconExperience} text="Experiencia Cautivantes" />
-        <IconTitleMain icon={IconNounFood} text="Todas las comidas Incluidas" />
-        <IconTitleMain icon={IconNounHut} text="Alojamientos únicos" />
+        <IconTitleMain icon={experience} text="Experiencia Cautivantes" />
+        <IconTitleMain icon={food} text="Todas las comidas Incluidas" />
+        <IconTitleMain icon={nounHut} text="Alojamientos únicos" />
         <IconTitleMain
-          icon={IconNounOffRoad}
+          icon={nounOffRoad}
           text="Transporte terrestre y fluvial en la Guainia"
         />
       </div>
       <div className="flex items-center flex-col gap-2">
         <h3>Whatsapp:</h3>
         <button className="flex gap-3 bg-gradient-to-t w-[18rem] justify-center p-2 from-[#FF6348] to-[#FF805A] shadow-sm  shadow-[#FF6348]">
-          <Image src={IconWhatsapp} alt="Icono Whatsapp" />
+          <Image src={whatsapp} alt="Icono Whatsapp" />
           <span className="text-sm">Reservar / información</span>
         </button>
       </div>
-      <Image src={IconArrowUp} alt="Icono Arrow Up" />
+      <Image src={arrowUp} alt="Icono Arrow Up" />
     </>
   );
 };

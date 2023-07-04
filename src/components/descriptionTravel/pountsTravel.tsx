@@ -1,10 +1,10 @@
 import { DivisionPount } from "./divisionPount";
 import { Target, TargetProps } from "./target";
-import { Flex } from "./tw-components/flex";
+import { Flex } from "../tw-components/flex";
 import { Icon } from "./icon";
 import { DayDetails } from "./dayDetails";
 import { Pount, PountProp } from "./pount";
-import { avion } from "../../public/icons";
+import { avion } from "../../../public/icons";
 import { information } from "@/information";
 
 export const DescriptionTravel = () => {

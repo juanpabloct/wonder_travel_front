@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Flex } from "./tw-components/flex";
+import { Flex } from "../tw-components/flex";
 
 export const Icon = ({
   icon,

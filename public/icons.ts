@@ -16,6 +16,16 @@ import puestaDeSolIcon from "./puesta-de-sol.png";
 import PersonAdventureIcon from "./noun_adventure_68979.svg";
 import footerImage from "./footer_image.png";
 import acoturImage from "./ACOTUR LOGO AI-01.png";
+import tituloPrincipal from "./imageDirector/tituloPrincipal.svg";
+import mapaIcon from "./Group 536.svg";
+
+import IconArrowUp from "./Icon - Keyboard Arrow - Up - Dark.svg";
+import IconWhatsapp from "./whatsapp (1).png";
+
+import IconNounHut from "./noun_Hut_233351.svg";
+import selectorMapaIcon from "./Group 431.svg";
+import iconExperience from "./noun_adventure_1941281.svg";
+import nounOffRoadIcon from "./noun_off-road_1938384.svg";
 export const amazonas = amazonasIcon;
 export const ballena = ballenaIcon;
 export const montañas = montañasIcon;
@@ -34,3 +44,11 @@ export const puestaDelSol = puestaDeSolIcon;
 export const PersonAdventure = PersonAdventureIcon;
 export const footer = footerImage;
 export const acotur = acoturImage;
+export const imageDirector = tituloPrincipal;
+export const mapa = mapaIcon;
+export const arrowUp = IconArrowUp;
+export const whatsapp = IconWhatsapp;
+export const nounHut = IconNounHut;
+export const selectorMapa = selectorMapaIcon;
+export const experience = iconExperience;
+export const nounOffRoad = nounOffRoadIcon;

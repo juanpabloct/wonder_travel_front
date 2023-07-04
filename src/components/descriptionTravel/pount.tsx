@@ -1,6 +1,6 @@
 import { DivisionPount } from "./divisionPount";
 import { Icon } from "./icon";
-import { Flex } from "./tw-components/flex";
+import { Flex } from "../tw-components/flex";
 export interface PountProp {
   title?: string;
   subTitle?: string;
@@ -24,7 +24,7 @@ export const Pount = ({
         <h4>{title}</h4>
         <Icon icon={icon} />
         <Flex width="w-full" className="relative justify-start">
-          <Flex col className="absolute text-[11px]">
+          <Flex col className="absolute text-[11px] md:text-sm">
             <p className="">{subTitle}</p>
             <p className=" text-[#707070] h-2">{description}</p>
           </Flex>

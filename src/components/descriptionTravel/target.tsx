@@ -12,7 +12,7 @@ export interface TargetProps {
   styleIcon?: string;
 }
 const P = tw.p`
-col-span-2 text-[11px]
+col-span-2 text-[11px] md:text-sm
 `;
 export const Target = ({
   icon,
@@ -30,7 +30,7 @@ export const Target = ({
         className={`grid grid-cols-5  shadow-md shadow-[#00000047] rounded-lg p-4 justify-items-center max-w-xl self-center gap-3 w-[-webkit-fill-available] ${style}`}
       >
         <div className="col-span-2 justify-self-start">
-          <h2 className="text-base text-left font-bold">{title}</h2>
+          <h2 className="text-base md:text-lg text-left font-bold">{title}</h2>
         </div>
         <div className="row-span-2 self-center">
           <Icon icon={icon} styleIcon={styleIcon} />
